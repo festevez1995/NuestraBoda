@@ -1,0 +1,13 @@
+.card{
+    padding: 0;
+}
+
+.img-title{
+    text-align: center;
+}
+
+.church-img{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.celebration-box{
+    width: 320px;
+    overflow: hidden;
+    max-height: 470px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.celebration-box img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.information{
+    margin-top: 10px;
+}
