@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de4a1871.css",
+    "main.js": "/static/js/main.b03ae3ff.js",
+    "static/media/wormy.png": "/static/media/wormy.16a55b705767b6046e54.png",
+    "static/media/park.png": "/static/media/park.dbf572e7cc0d9ffc3c94.png",
+    "static/media/church.png": "/static/media/church.cc0f3ca44aac82301e20.png",
+    "index.html": "/index.html",
+    "main.de4a1871.css.map": "/static/css/main.de4a1871.css.map",
+    "main.b03ae3ff.js.map": "/static/js/main.b03ae3ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de4a1871.css",
+    "static/js/main.b03ae3ff.js"
+  ]
+}

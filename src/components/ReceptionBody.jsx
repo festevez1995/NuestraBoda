@@ -1,7 +1,7 @@
 import React from "react";
 import TextCard from "./TextCard";
 import Card from "./Card";
-import parkParty from "/src/assets/park.png";
+import parkParty from "../assets/park.png";
 
 function ReceptionBody() {
   const parkDescription =

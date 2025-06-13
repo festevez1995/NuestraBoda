@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import TextCard from "./TextCard";
-import "/src/App.css";
-import churchImg from "/src/assets/church.png";
+import "../App.css";
+import churchImg from "../assets/church.png";
 
 function CeremonyBody() {
   const churchDescription =

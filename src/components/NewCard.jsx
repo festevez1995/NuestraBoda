@@ -1,4 +1,4 @@
-import "/src/components/NewCard.css";
+import "../components/NewCard.css";
 
 function NewCard(props) {
   return (
