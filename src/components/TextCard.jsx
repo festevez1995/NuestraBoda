@@ -10,16 +10,19 @@ function TextCard(props) {
       <h3 style={{ textAlign: "center" }}>{props.title}</h3>
       <br />
       <br />
-      <p>
-        <BsCalendar2MonthFill /> {props.date}
+      <p className="date">
+        <BsCalendar2MonthFill size="2em" style={{ verticalAlign: "middle" }} />{" "}
+        {props.date}
       </p>
       <br />
-      <p>
-        <MdAccessTimeFilled /> {props.time}
+      <p className="time">
+        <MdAccessTimeFilled size="2em" style={{ verticalAlign: "middle" }} />{" "}
+        {props.time}
       </p>
       <br />
-      <p>
-        <MdLocationOn /> {props.place}
+      <p className="location">
+        <MdLocationOn size="2em" style={{ verticalAlign: "middle" }} />{" "}
+        {props.place}
       </p>
     </div>
   );

@@ -1,6 +1,10 @@
-/* .text-card {
-  align-items: center;
-  height: 300px;
-  width: 300px;
-  overflow: auto;
-} */
+.text-card {
+  margin: 1rem 0;
+  gap: 0.25rem;
+}
+
+.date,
+.time,
+.location {
+  font-size: 18px;
+}
