@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import TextCard from "./TextCard";
 import "../components/CeremonyBody.css";
-import churchImg from "../assets/church.png";
+import churchImg from "../assets/church2.jpg";
 
 function CeremonyBody() {
   return (
