@@ -9,9 +9,8 @@ function App() {
   return (
     <>
       <Home />
-      <div className="body-container">
-        <h3 style={{ textAlign: "center" }}>La Ceremonia</h3>
-        <div className="body-wrapper">
+      <CeremonyBody />
+      {/* <div className="body-wrapper">
           <NewCard
             imagePath={churchImg}
             imageName="Saint Mark's University Perish"
@@ -19,8 +18,7 @@ function App() {
             time="11:00 AM"
             place="6550 Picasso Rd, Goleta, CA 93117"
           />
-        </div>
-      </div>
+        </div> */}
       {/* <CeremonyBody /> */}
       {/* <ReceptionBody /> */}
     </>

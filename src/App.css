@@ -2,41 +2,28 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
-.body-container, .reception-container{
-    background-color: #fffcef;
-    padding: 40Px;
-    display: flex;
-    gap: 0px;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    flex-wrap: wrap;
-}
-.body-wrapper{
-  padding: 40px;
-  border: 5px solid;
-  border-radius: 40px;
-  background-color: #ffff;
+html,
+body {
+  height: 100%;
 }
 
-.open-sans-p{
+.open-sans-p {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-p{
+p {
   color: #6d0016;
   font-family: ".open-sans-p", sans-serif;
 }
 
-h3{
-  color:#6d0016;
+h3 {
+  color: #6d0016;
   font-family: "Great Vibes", cursive;
   font-size: 250%;
 }

@@ -6,8 +6,6 @@ function TextCard(props) {
     <div className="text-card">
       <h3 style={{ textAlign: "center" }}>{props.title}</h3>
       <br />
-      <p>{props.description}</p>
-      <br />
       <p>Fecha: {props.date}</p>
       <p>Horario: {props.time}</p>
       <p>Direccion: {props.place}</p>
