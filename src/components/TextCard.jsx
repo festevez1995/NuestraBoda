@@ -11,8 +11,7 @@ function TextCard(props) {
       <br />
       <br />
       <p className="date">
-        <BsCalendar2MonthFill size="2em" style={{ verticalAlign: "middle" }} />{" "}
-        {props.date}
+        <BsCalendar2MonthFill size="2em" /> {props.date}
       </p>
       <br />
       <p className="time">
