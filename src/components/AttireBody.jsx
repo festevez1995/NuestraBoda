@@ -14,7 +14,7 @@ function ReceptionBody() {
       <div className="colorCard-container">
         <NewCard color="#800020" colorName="Burgundy/Vino" />
         <NewCard color="#efbf04" colorName="Gold/Oro" />
-        <NewCard color="#C4A484" colorName="Brown/Marron" />
+        <NewCard color="#C4A484" colorName="Light Brown/Marron Claro" />
         <NewCard color="#06402b" colorName="Dark Green/Verde Oscuro" />
       </div>
     </div>
