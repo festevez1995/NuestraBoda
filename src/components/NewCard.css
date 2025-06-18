@@ -1,18 +1,20 @@
-.celebration-box{
-    width: 320px;
-    overflow: hidden;
-    max-height: 470px;
-    padding: 10px;
-    background-color: antiquewhite;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.bubble-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  margin: 1rem;
 }
 
-.celebration-box img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+.bubble-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.information{
-    margin-top: 10px;
+.bubble-label {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  text-align: center;
 }

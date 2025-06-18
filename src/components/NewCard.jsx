@@ -2,14 +2,14 @@ import "../components/NewCard.css";
 
 function NewCard(props) {
   return (
-    <div className="celebration-box">
-      <img src={props.imagePath} alt={props.imageName} />
-      <div className="information">
-        <p>Fetcha: {props.date}</p>
-        <p>Tiempo: {props.time}</p>
-        <p>Lugar: {props.place}</p>
-        <button>Obtener Direcciones</button>
-      </div>
+    <div className="bubble-card">
+      <div
+        className="bubble-circle"
+        style={{ backgroundColor: props.color }}
+      ></div>
+      <p className="bubble-label" style={{ color: "#000000" }}>
+        {props.colorName}
+      </p>
     </div>
   );
 }

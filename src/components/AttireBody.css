@@ -1,0 +1,21 @@
+.attire-container {
+  display: flex;
+  padding: 40px; /* Remove any internal padding */
+  margin: 0; /* Optional: remove outer margin */
+  width: 100%;
+  gap: 1rem; /* Adds space between icon and text */
+  background-color: #efefef;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.colorCard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
