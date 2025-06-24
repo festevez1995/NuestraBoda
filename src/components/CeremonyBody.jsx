@@ -11,7 +11,7 @@ function CeremonyBody() {
         <TextCard
           title="La Ceremonia"
           date="Agosto 23, 2025"
-          time="11:00 AM"
+          time="11:00 AM - 12:00 PM"
           place="6550 Picasso Rd, Goleta, CA 93117"
         />
       </div>
@@ -20,6 +20,7 @@ function CeremonyBody() {
         <Card
           imagePath={churchImg}
           imageName="Saint Mark's University Perish"
+          color="#ffffff"
         />
       </div>
     </div>
