@@ -1,5 +1,5 @@
 import React from "react";
-import homeImg from "../assets/wormy.jpg";
+import homeImg from "../assets/wormy.JPG";
 import "../components/Home.css";
 
 function Home() {
