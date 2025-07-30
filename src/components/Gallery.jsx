@@ -3,7 +3,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "../components/Gallery.css";
 
 const images = [
-  "/engagement_photos/reyna_fer_0.JPG",
+  "/engagement_photos/reyna_fer_0.jpg",
   "/engagement_photos/reyna_fer_1.JPG",
   "/engagement_photos/reyna_fer_2.JPG",
   "/engagement_photos/reyna_fer_3.JPG",
