@@ -1,5 +1,5 @@
 import React from "react";
-import homeImg from "../assets/wormy.png";
+import homeImg from "../assets/wormy.jpg";
 import "../components/Home.css";
 
 function Home() {
@@ -9,9 +9,15 @@ function Home() {
   return (
     <div className="home-container">
       <img className="home-img" src={homeImg} />
-      <p className="home-description">{homeMessage}</p>
-      <h1 className="home-BaG">{names}</h1>
-      <p className="home-description">{date}</p>
+      <div className="overlay">
+        <div className="content">
+          <p className="home-description">{homeMessage}</p>
+          <h1 className="home-BaG">{names}</h1>
+          <p className="home-description" style={{ bottom: "20%" }}>
+            {date}
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -19,7 +19,7 @@ function CeremonyBody() {
       <div className="ceremony-cardcontainer">
         <Card
           imagePath={churchImg}
-          imageName="Saint Mark's University Perish"
+          imageName="Saint Mark's University Parishe"
           color="#ffffff"
         />
       </div>

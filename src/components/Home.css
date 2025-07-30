@@ -1,22 +1,50 @@
 .home-img {
-  object-fit: cover;
+  /* object-fit: cover;
+  width: 100%;
+  height: auto;
+  z-index: -1; */
   width: 100%;
   height: 100%;
-  position: fixed;
-  z-index: -1;
+  object-fit: cover;
+  display: block;
 }
 
-.home-container{
-  background: center center/cover
-  no-repeat;
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+/* .home-container {
+  background: center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0 , 0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+} */
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* darkens image */
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .great-vibes-regular {
@@ -26,18 +54,18 @@
 }
 
 .home-BaG {
-    color: hsl(0, 0%, 100%);
-    padding-top: 5%;
+  color: hsl(0, 0%, 100%);
+  padding-top: 5%;
   font-family: "Great Vibes", cursive;
   font-size: 500%;
   text-align: center;
 }
 
 .home-description {
-font-family:'Open Sans Wormy', sans-serif;
-padding-top: 5%;
-color: hsl(0, 0%, 100%);
-text-align: center;
-font-size: large;
-font-style:italic;
+  font-family: "Open Sans Wormy", sans-serif;
+  padding-top: 5%;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: large;
+  font-style: italic;
 }

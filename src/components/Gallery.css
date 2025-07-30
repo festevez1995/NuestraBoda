@@ -1,0 +1,6 @@
+.Gallery-container {
+  padding: 0; /* Remove any internal padding */
+  margin: 0; /* Optional: remove outer margin */
+  width: 100%;
+  background-color: #efefef;
+}
